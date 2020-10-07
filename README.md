@@ -1,3 +1,13 @@
+# Notes
+
+Customized Marlin version to work in an ender 3 using a SKR-mini-E3 V2.0 board with BLTouch. To adapt to your own setup (depending mostly on how BLTouch is mounted)
+
+- Update `NOZZLE_TO_PROBE_OFFSET`: https://github.com/glena/Marlin/blob/97e6fab12f55378ae3ad89752f87b32466a6c9f4/Marlin/Configuration.h#L983
+- Update `CUSTOM_MACHINE_NAME` to your convenience: https://github.com/glena/Marlin/blob/97e6fab12f55378ae3ad89752f87b32466a6c9f4/Marlin/Configuration.h#L134 
+
+Optional:
+- Tune the `PID_PARAMS` (https://marlinfw.org/docs/configuration/configuration.html#pid): https://github.com/glena/Marlin/blob/2.0.x/Marlin/Configuration.h#L498-L500 
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
